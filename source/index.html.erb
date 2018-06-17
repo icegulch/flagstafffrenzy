@@ -2,6 +2,33 @@
 pageable: true
 per_page: 10
 ---
+
+<% content_for :script do %>
+  <script>    
+    var token = '6611151888.1677ed0.f9aed2d3ddc74565ac886192c97c6cad',
+        hashtag='flagstafffrenzyboulder', // hashtag without # symbol
+        num_photos = 4;
+     
+    $.ajax({
+      url: 'https://api.instagram.com/v1/tags/' + hashtag + '/media/recent',
+      dataType: 'jsonp',
+      type: 'GET',
+      data: {access_token: token, count: num_photos},
+      success: function(data){
+        console.log(data);
+        for(x in data.data){
+          $('ul.instagram').append('<li><img src="'+data.data[x].images.standard_resolution.url+'"></li>');  
+        }
+      },
+      error: function(data){
+        console.log(data);
+      }
+    });
+  </script>
+<% end %>
+
+<ul class="instagram"></ul>
+
 <% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
 
