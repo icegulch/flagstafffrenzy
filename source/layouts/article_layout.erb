@@ -3,6 +3,12 @@
 <section class="page-section p-4">
   <div class="container">
     <article>
+      <h1 class="display-1">
+        <%= current_article.title %>
+      </h1>
+      <div class="text-muted">
+        <%= current_article.date.strftime('%b %e, %Y') %>
+      </div>
       <%= yield %>
     </article>
   </div>
