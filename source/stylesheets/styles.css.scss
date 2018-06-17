@@ -1,1 +1,9 @@
-@import "bootstrap";
+
+body {
+  background-color: #6c757d;
+}
+
+#main {
+  min-height: calc(100vh - 150px);
+  background-color: #fff;
+}

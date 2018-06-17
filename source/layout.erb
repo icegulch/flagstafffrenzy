@@ -8,71 +8,45 @@
     <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <%= stylesheet_link_tag 'styles' %>
     <%= yield_content :style %>
     <%= javascript_include_tag "https://code.jquery.com/jquery-3.3.1.min.js", :integrity => "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=", :crossorigin => "anonymous" %>
+    <%= javascript_include_tag "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" %>
     <%= yield_content :script %>
   </head>
   <body>
 
-    <header id="header" role="banner">
+    <nav class="navbar navbar-dark bg-dark">
       <div class="container">
-        <ul class="text-center list-inline">
-          <% blog.tags.each do |tag, articles| %>
-            <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-          <% end %>
+        <a class="navbar-brand" href="/">Flagstaff Frenzy</a>
+      </div>
+<% if false %>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
         </ul>
       </div>
-    </header>
+<% end %>
+    </nav>
 
     <main id="main" role="main">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <%= yield %>
-          </div>
-          <aside class="col-md-3">
-            <% if false %>
-            <h2>Recent Articles</h2>
-            <ol>
-              <% blog.articles[0...10].each do |article| %>
-                <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
-              <% end %>
-            </ol>
-
-            <h2>Tags</h2>
-            <ol>
-              <% blog.tags.each do |tag, articles| %>
-                <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-              <% end %>
-            </ol>
-
-            <h2>By Year</h2>
-            <ul>
-              <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-                <li class="list-group-item">
-                  <%= link_to "#{year} (#{articles.size})", blog_year_path(year) %>
-                </li>
-              <% end %>
-            </ul>
-            <% end %>
-
-            <div class="card">
-              <div class="card-header">
-                Archive
-              </div>
-              <div class="list-group list-group-flush">
-                <% blog.articles.select {|a| a.tags.include? 'sundry'}.group_by {|a| a.date.year }.each do |year, articles| %>
-                  <a href="<%= blog_year_path(year) %>" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                    <%= year %> <span class="badge badge-primary badge-pill"><%= articles.size %></span>
-                  </a>
-                <% end %>
-              </div>
-            </div>
-
-          </aside>
-        </div>
-      </div>
+      <%= yield %>
     </main>
+
+    <footer class="p-4 bg-secondary text-center text-light">
+      Flagstaff Frenzy <%= Time.now.year %>
+    </footer>
 
   </body>
 </html>
