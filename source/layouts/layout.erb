@@ -10,9 +10,6 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <%= stylesheet_link_tag 'styles' %>
     <%= yield_content :style %>
-    <%= javascript_include_tag "https://code.jquery.com/jquery-3.3.1.min.js", :integrity => "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=", :crossorigin => "anonymous" %>
-    <%= javascript_include_tag "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" %>
-    <%= yield_content :script %>
     <%= favicon_tag 'images/favicon.ico' %>
   </head>
   <body>
@@ -21,24 +18,6 @@
       <div class="container">
         <a class="navbar-brand" href="/">Flagstaff Frenzy</a>
       </div>
-<% if false %>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-        </ul>
-      </div>
-<% end %>
     </nav>
 
     <main id="main" role="main">
@@ -48,6 +27,10 @@
     <footer class="p-4 bg-secondary text-center text-light">
       Flagstaff Frenzy <%= Time.now.year %>
     </footer>
+    
+    <%= javascript_include_tag "//code.jquery.com/jquery-3.3.1.min.js", :integrity => "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=", :crossorigin => "anonymous" %>
+    <%= javascript_include_tag "//stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" %>
+    <%= yield_content :script %>
 
   </body>
 </html>
