@@ -13,7 +13,7 @@ gem 'rack', '2.0.8'
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
-gem 'nokogiri', '1.8.5'
+gem "nokogiri", ">= 1.10.8"
 gem 'fileutils'
 gem 'upmark'   
 gem 'html2md'
