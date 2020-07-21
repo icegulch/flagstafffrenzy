@@ -103,7 +103,7 @@ GEM
     parallel (1.19.2)
     parslet (1.8.2)
     public_suffix (4.0.5)
-    rack (2.0.8)
+    rack (2.2.3)
     rack-livereload (0.3.17)
       rack
     rb-fsevent (0.10.4)
@@ -137,7 +137,6 @@ DEPENDENCIES
   middleman-livereload
   middleman-minify-html (~> 3.4.1)
   nokogiri (>= 1.10.8)
-  rack (= 2.0.8)
   redcarpet
   upmark
 

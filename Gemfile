@@ -8,7 +8,6 @@ gem 'middleman-livereload'
 gem 'middleman-minify-html', '~>3.4.1'
 gem 'middleman-autoprefixer'
 gem 'redcarpet'
-gem 'rack', '2.0.8'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
