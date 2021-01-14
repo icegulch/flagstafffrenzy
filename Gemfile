@@ -7,12 +7,6 @@ gem "middleman-blog"
 gem 'middleman-livereload'
 gem 'middleman-minify-html', '~>3.4.1'
 gem 'middleman-autoprefixer'
-gem "redcarpet", ">= 3.5.1"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
-
-gem "nokogiri", ">= 1.10.8"
-gem 'fileutils'
-gem 'upmark'
-gem 'html2md'
