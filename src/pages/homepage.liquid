@@ -1,0 +1,49 @@
+---
+permalink: /index.html
+---
+
+<h1>
+  Flagstaff Frenzy
+</h1>
+
+{% assign posts_by_author = posts | group_by: "creator" %}
+{% for author in posts_by_author %}
+  <pre>{{ author | dump }}</pre>
+{% endfor %}
+
+
+
+{% comment %}
+{% assign posts_by_dave = posts | where: "creator", "daveunderwood" %}
+Dave: {{ posts_by_dave | size }}<br>
+{% assign posts_by_steve = posts | where: "creator", "Steve" %}
+Steve: {{ posts_by_steve | size }}<br>
+{% assign posts_by_greg = posts | where: "creator", "Greg" %}
+Greg: {{ posts_by_greg | size }}<br>
+{% assign posts_by_kevin = posts | where: "creator", "Kevin" %}
+Kevin: {{ posts_by_kevin | size }}<br>
+{% assign posts_by_isean = posts | where: "creator", "iSean" %}
+iSean: {{ posts_by_isean | size }}<br>
+{% assign posts_by_matt = posts | where: "creator", "Matt" %}
+Matt: {{ posts_by_matt | size }}<br>
+{% assign posts_by_adriana = posts | where: "creator", "Adriana" %}
+Adriana: {{ posts_by_adriana | size }}<br>
+{% assign posts_by_werner = posts | where: "creator", "Werner" %}
+Werner: {{ posts_by_werner | size }}
+{% assign most_recent_posts = posts | sort: "post_date" | reverse | limit: 5 %}
+{% for post in most_recent_posts %}
+<article style="margin-block:2rem">
+<h2>{{ post.title }}</h2>
+<div>By {{ post.creator }} @ {{ post.post_date | date: "%B %d, %Y at %H:%M" }}</div>
+<div>
+{{ post.post_content }}
+</div>
+{% for record in post.comments | sort: "post_date" | reverse %}
+<aside style="background-color:#e1e5e9;border-top:1px solid #fff;padding:1rem">
+{{ record.comment_author }} @ {{ record.comment_date | date: "%B %d, %Y at %H:%M" }}
+<div>{{ record.comment_content }}</div>
+</aside>
+{% endfor %}
+</article>
+{% endfor %}
+{% endcomment %}

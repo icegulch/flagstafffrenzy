@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    Flagstaff Frenzy
+    {#{ site.name }}{{ ' | ' + title | safe  if page.url !== '/' #}
+  </title>
+  <meta name="description" content="You Must Be Really Bored!">
+  {#
+  {% include "partials/meta_icons.njk" %}
+  <link rel="canonical" href="{{ site.rootUrl }}{{ page.url }}" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <meta name="application-name" content="{{ site.name }}" />
+  {% set css %} 
+    {% include "css/site.css" %}
+  {% endset %}
+  <style>
+    {% if site.env === "production" %}
+      {{ css | cssmin | safe }}
+    {% else %}
+      {{ css | safe }}
+    {% endif %}
+  </style>
+#}
+</head>
+<body>
+
+{# include "partials/svg-sprite.njk" #}
+
+  {#
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="site-header__inner">
+        <a aria-labelledby="{{ site.name }} homepage" href="/">
+          {{ site.name }}
+        </a>
+        <a href="/search/">
+          <svg><use xlink:href='#search' /></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+  #}
+
+  <main class="site-main" role="main">
+    <div class="container">
+      {{ content | safe }}
+    </div>
+  </main>
+
+</body>
+</html>
