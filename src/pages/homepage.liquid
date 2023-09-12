@@ -6,13 +6,17 @@ permalink: /index.html
   Flagstaff Frenzy
 </h1>
 
-{% assign posts_by_author = posts | group_by: "creator" %}
-{% for author in posts_by_author %}
-  <pre>{{ author | dump }}</pre>
+{% assign posts_by_year = datedposts | sort: "post_date" | group_by: "year" | reverse %}
+{% for year in posts_by_year %}
+  <h2>{{ year.name }}</h2>
+  {% assign posts_by_month = year.items | group_by: "month" %}
+  {% for month in posts_by_month %}
+    <h3>{{ month.items.first.post_date | date: "%B" }}</h3>
+    {% for post in month.items %}
+      <p>{{ post.title }}</p>
+    {% endfor %}
+  {% endfor %}
 {% endfor %}
-
-
-
 {% comment %}
 {% assign posts_by_dave = posts | where: "creator", "daveunderwood" %}
 Dave: {{ posts_by_dave | size }}<br>
