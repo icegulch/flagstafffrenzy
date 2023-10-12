@@ -1,0 +1,12 @@
+---
+permalink: /index.html
+layout: layouts/base.liquid
+---
+
+<ol>
+  {% for post in posts %}
+    <li>
+      <a href="/posts/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}/">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ol>

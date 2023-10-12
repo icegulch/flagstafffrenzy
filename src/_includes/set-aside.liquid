@@ -1,0 +1,117 @@
+{% assign posts_by_author = posts | group_by: "author" %}
+{% for author in posts_by_author %}
+  {% if forloop.first %}
+    <ol class="post-comments">
+    {% endif %}
+    <li>
+      {{ author.name }} ({{ author.items | size }})
+    </li>
+    {% if forloop.last %}
+    </ol>
+  {% endif %}
+{% endfor %}
+
+{% assign postsByDate = posts | sort: "publish_date" | reverse %}
+{% for post in postsByDate limit: 10 %}
+  <article id="post-{{ post.id }}">
+    <header>
+      <h1>{{ post.title }} • {{ post.author }} @ {{ post.publish_date | date: "%a, %b %d, %Y @ %H:%M" }}</h1>
+      <div>{{ post.body | markdownify }}</div>
+    </header>
+    {% assign commentsByDateReversed = post.comments | sort: "comment_publish_date" | reverse %}
+    {% for item in commentsByDateReversed %}
+      {% if forloop.first %}
+        <ol class="post-comments">
+        {% endif %}
+        <li>
+          <h2>{{ item.comment_author }} • {{ item.comment_publish_date | date: "%a, %B %d, %Y @ %H:%M" }}</h2>
+          <div>{{ item.comment_body | markdownify }}</div>
+        </li>
+        {% if forloop.last %}
+        </ol>
+      {% endif %}
+    {% endfor %}
+  </article>
+{% endfor %}
+
+
+<form
+  name="comment"
+  method="POST"
+  netlify-honeypot="bot-field"
+  data-netlify="true"
+  action="/thanks/">
+  <p class="sr-only">
+    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+  </p>
+  <div>
+    <label for="name" style="display:block">
+      Your Name
+    </label>
+    <select
+      id="name"
+      name="name[]"
+      required>
+      <option
+        value=""
+        selected="true"
+        disabled="disabled">Please select one</option>
+      <option value="Steve">Steve</option>
+      <option value="Dave">Dave</option>
+      <option value="Noah">Noah</option>
+    </select>
+  </div>
+  <div>
+    <label
+      for="message"
+      style="display:block"
+      required>
+      What's on your mind?
+    </label>
+  </div>
+  <textarea
+    id="message"
+    name="message"
+    rows="10"
+    required></textarea>
+  <div>
+    <button type="submit">
+      Send
+    </button>
+  </div>
+</form>
+
+{% comment %}
+{% assign posts_by_dave = posts | where: "creator", "daveunderwood" %}
+Dave: {{ posts_by_dave | size }}<br>
+{% assign posts_by_steve = posts | where: "creator", "Steve" %}
+Steve: {{ posts_by_steve | size }}<br>
+{% assign posts_by_greg = posts | where: "creator", "Greg" %}
+Greg: {{ posts_by_greg | size }}<br>
+{% assign posts_by_kevin = posts | where: "creator", "Kevin" %}
+Kevin: {{ posts_by_kevin | size }}<br>
+{% assign posts_by_isean = posts | where: "creator", "iSean" %}
+iSean: {{ posts_by_isean | size }}<br>
+{% assign posts_by_matt = posts | where: "creator", "Matt" %}
+Matt: {{ posts_by_matt | size }}<br>
+{% assign posts_by_adriana = posts | where: "creator", "Adriana" %}
+Adriana: {{ posts_by_adriana | size }}<br>
+{% assign posts_by_werner = posts | where: "creator", "Werner" %}
+Werner: {{ posts_by_werner | size }}
+{% assign most_recent_posts = posts | sort: "post_date" | reverse | limit: 5 %}
+{% for post in most_recent_posts %}
+<article style="margin-block:2rem">
+<h2>{{ post.title }}</h2>
+<div>By {{ post.creator }} @ {{ post.post_date | date: "%B %d, %Y at %H:%M" }}</div>
+<div>
+{{ post.post_content }}
+</div>
+{% for record in post.comments | sort: "post_date" | reverse %}
+<aside style="background-color:#e1e5e9;border-top:1px solid #fff;padding:1rem">
+{{ record.comment_author }} @ {{ record.comment_date | date: "%B %d, %Y at %H:%M" }}
+<div>{{ record.comment_content }}</div>
+</aside>
+{% endfor %}
+</article>
+{% endfor %}
+{% endcomment %}

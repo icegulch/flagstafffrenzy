@@ -1,0 +1,18 @@
+---
+layout: layouts/base.liquid
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "/posts/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}/index.html"
+eleventyComputed:
+  title: "{{ post.title }}"
+---
+
+<h1>
+  {{ post.title }}
+</h1>
+<time>{{ post.publish_date | date: "%B %e, %Y" }}</time>
+<article>
+  {{ post.body | markdownify }}
+</article>

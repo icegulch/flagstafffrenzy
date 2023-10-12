@@ -1,0 +1,28 @@
+---
+pagination:
+  data: postsByYear
+  size: 1
+  alias: group
+permalink: /posts/{{ group.year }}/index.html
+layout: layouts/base.liquid
+eleventyComputed:
+  title: "Posts from {{ group.year }}"
+---
+
+<h1>Posts from {{ group.year }}</h1>
+
+{% assign postsByMonth = group.posts | group_by: "month" | sort | reverse %}
+{% for month in postsByMonth %}
+  <div class="archive-months">
+    <h3>{{ month.name | monthName }}</h3>
+    <div>
+      {% assign postsSortedByDay = month.items | sort: "publish_date" | reverse %}
+      {% for post in postsSortedByDay %}
+        <span>{{ post.publish_date | date: "%d" }}</span>
+        <span>
+          <a href="/posts/{{ post.year }}/{{ post.month }}/{{ post.day }}/{{ post.title | slugify }}/">{{ post.title }}</a>
+        </span>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

@@ -1,15 +1,19 @@
 const util = require('util')
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
 
-  // Let some files pass through to public
-  // eleventyConfig.addPassthroughCopy({ "./src/favicon.ico": "/favicon.ico"});
-  
-  eleventyConfig.addPlugin(EleventyRenderPlugin);
+  eleventyConfig.addPassthroughCopy({ "src/_includes/oldposts/": "posts/" });
 
   eleventyConfig.addFilter('dump', obj => {
     return util.inspect(obj)
+  });
+
+  eleventyConfig.addFilter('monthName', function (monthNumber) {
+    const monthNames = [
+      'January', 'February', 'March', 'April', 'May', 'June', 'July',
+      'August', 'September', 'October', 'November', 'December'
+    ];
+    return monthNames[parseInt(monthNumber, 10) - 1] || '';
   });
 
   eleventyConfig.addFilter('group_by', groupBy)
