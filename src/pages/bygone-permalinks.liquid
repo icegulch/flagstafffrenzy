@@ -1,0 +1,28 @@
+---
+layout: base.liquid
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "/bygone/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}/index.html"
+eleventyComputed:
+  title: "{{ post.title }}"
+---
+
+<h1>
+  {{ post.title }}
+</h1>
+{{ post.author }}<br>
+<time>{{ post.publish_date | date: "%A, %B %-d, %Y @ %H:%M" }} UTC</time>
+<article>
+  {{ post.body | markdownify }}
+  <hr>
+  <ol>
+  {% for screed in post.comments %}
+    <li>
+      {{ screed.comment_author }} • {{ screed.comment_publish_date | date: "%A, %B %-d, %Y @ %H:%M" }} UTC<br>
+      {{ screed.comment_body | markdownify }}
+      </li>
+  {% endfor %}
+  </ol>
+</article>

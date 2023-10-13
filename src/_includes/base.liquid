@@ -12,6 +12,11 @@
     <meta name="description" content="You Must Be Really Bored!">
     <meta name="application-name" content="Flagstaff Frenzy" />
     <style>
+      img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+      }
       .post-comments {
         list-style: none;
         padding: 20px;
@@ -20,11 +25,13 @@
       .archive {
         display: grid;
         grid-template-areas: "year months";
-        grid-template-columns: 4ch 1fr;
+        grid-template-columns: auto 1fr;
         margin-bottom: 50px;
       }
       .archive dt {
         grid-area: year;
+        padding:1rem;
+        background-color: #f1f5f9;
       }
       .archive dd {
         grid-area: months;

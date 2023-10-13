@@ -2,43 +2,45 @@
 permalink: /index.html
 ---
 
-<h1>
-  Flagstaff Frenzy
-</h1>
+{% assign posts_by_dave = posts | where: "author", "Dave" %}
+Dave: {{ posts_by_dave | size }}<br>
+{% assign posts_by_steve = posts | where: "author", "Steve" %}
+Steve: {{ posts_by_steve | size }}<br>
+{% assign posts_by_greg = posts | where: "author", "Greg" %}
+Greg: {{ posts_by_greg | size }}<br>
+{% assign posts_by_kevin = posts | where: "author", "Kevin" %}
+Kevin: {{ posts_by_kevin | size }}<br>
+{% assign posts_by_isean = posts | where: "author", "iSean" %}
+iSean: {{ posts_by_isean | size }}<br>
+{% assign posts_by_matt = posts | where: "author", "Matt" %}
+Matt: {{ posts_by_matt | size }}<br>
+{% assign posts_by_adriana = posts | where: "author", "Adriana" %}
+Adriana: {{ posts_by_adriana | size }}<br>
+{% assign posts_by_werner = posts | where: "author", "Werner" %}
+Werner: {{ posts_by_werner | size }}
 
-{% assign posts_by_year = datedposts | sort: "post_date" | group_by: "year" | reverse %}
+{% assign posts_by_year = datedposts | group_by: "year" | sort: "name" | reverse %}
 {% for year in posts_by_year %}
   <h2>{{ year.name }}</h2>
-  {% assign posts_by_month = year.items | group_by: "month" %}
+  {% assign posts_by_month = year.items | group_by: "month" | sort: "name" | reverse %}
   {% for month in posts_by_month %}
-    <h3>{{ month.items.first.post_date | date: "%B" }}</h3>
-    {% for post in month.items %}
-      <p>{{ post.title }}</p>
-    {% endfor %}
+    <h3>{{ month.name | monthName }}</h3>
+    <ul>
+      {% for post in month.items %}
+        <li>
+          {{ post.publish_date | date: "%d" }} - <a href="/bygone/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}">{{ post.title }}</a> ({{ post.comments | size }})
+        </li>
+      {% endfor %}
+    </ul>
   {% endfor %}
 {% endfor %}
+
 {% comment %}
-{% assign posts_by_dave = posts | where: "creator", "daveunderwood" %}
-Dave: {{ posts_by_dave | size }}<br>
-{% assign posts_by_steve = posts | where: "creator", "Steve" %}
-Steve: {{ posts_by_steve | size }}<br>
-{% assign posts_by_greg = posts | where: "creator", "Greg" %}
-Greg: {{ posts_by_greg | size }}<br>
-{% assign posts_by_kevin = posts | where: "creator", "Kevin" %}
-Kevin: {{ posts_by_kevin | size }}<br>
-{% assign posts_by_isean = posts | where: "creator", "iSean" %}
-iSean: {{ posts_by_isean | size }}<br>
-{% assign posts_by_matt = posts | where: "creator", "Matt" %}
-Matt: {{ posts_by_matt | size }}<br>
-{% assign posts_by_adriana = posts | where: "creator", "Adriana" %}
-Adriana: {{ posts_by_adriana | size }}<br>
-{% assign posts_by_werner = posts | where: "creator", "Werner" %}
-Werner: {{ posts_by_werner | size }}
 {% assign most_recent_posts = posts | sort: "post_date" | reverse | limit: 5 %}
 {% for post in most_recent_posts %}
 <article style="margin-block:2rem">
 <h2>{{ post.title }}</h2>
-<div>By {{ post.creator }} @ {{ post.post_date | date: "%B %d, %Y at %H:%M" }}</div>
+<div>By {{ post.author }} @ {{ post.post_date | date: "%B %d, %Y at %H:%M" }}</div>
 <div>
 {{ post.post_content }}
 </div>

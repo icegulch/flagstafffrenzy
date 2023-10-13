@@ -2,7 +2,10 @@ const util = require('util')
 
 module.exports = function (eleventyConfig) {
 
-  eleventyConfig.addPassthroughCopy({ "src/_includes/oldposts/": "posts/" });
+  // eleventyConfig.addPassthroughCopy({ "src/_includes/oldposts/": "posts/" });
+  eleventyConfig.setLiquidOptions({
+    jsTruthy: true
+  });
 
   eleventyConfig.addFilter('dump', obj => {
     return util.inspect(obj)

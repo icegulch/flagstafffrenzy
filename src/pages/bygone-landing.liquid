@@ -1,13 +1,13 @@
 ---
-permalink: /posts/index.html
-title: Posts Archive
+permalink: /bygone/index.html
+title: Ye Oulde Frenzy
 ---
 
 {% assign postsByYear = posts | group_by: "year" | sort | reverse %}
 {% for postByYear in postsByYear %}
   <dl class="archive">
     <dt>{{ postByYear.name }}</dt>
-    {% assign postsByMonth = postByYear.items | group_by: "month" | sort | reverse %}
+    {% assign postsByMonth = postByYear.items | group_by: "month" | sort: "name" | reverse %}
     <dd>
       {% for month in postsByMonth %}
         <div class="archive-months">
@@ -17,7 +17,7 @@ title: Posts Archive
             {% for post in postsSortedByDay %}
               <span>{{ post.publish_date | date: "%d" }}</span>
               <span>
-                <a href="/posts/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}/">{{ post.title }}</a>
+                <a href="/bygone/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}/">{{ post.title }}</a>
               </span>
             {% endfor %}
           </div>
