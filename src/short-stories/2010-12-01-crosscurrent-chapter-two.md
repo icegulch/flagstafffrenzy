@@ -1,7 +1,8 @@
 ---
 title: Crosscurrent, Chapter Two
-date: 2010-12-01
+publish_date: "2010-12-01T09:02:14Z"
 ---
+
 &#8220;And so in Germany, in the fall of 1936, we see the rise of a new political class, a unique new form of political activism, and a new way of addressing the masses. It&#8217;s not the Kaiser&#8217;s Germany anymore, and many older Germans are finding themselves confused about their loyalties. It&#8217;s as if they&#8217;ve gone to sleep in the nineteenth century and awakened in the twentieth. It&#8217;s all happened so fast. And where were the intelligentsia all this time? And the artists? And the writers?&#8221;
 
 Man, this was going to be one rough afternoon. Ten minutes into Burkeland&#8217;s lecture and Adam Armand was already cross-eyed with fatigue. He didn&#8217;t see how he could possibly get through the rest of this ninety-minute class, not to mention the Art History lecture immediately afterwards. He could pull off one or two short nights in a row, but apparently four was way too many. Burkeland&#8217;s voice threaded its way in and out of the humming in his ears and one eye finally closed. Maybe he could sleep with just one eye at a time, his eyes taking turns, find some way to prop his head up on his notebook, and slip into a delicious half-sleep. Maybe just doze a minute. Or two?
@@ -66,7 +67,7 @@ Adam&#8217;s friend and roommate from last semester, Ben Singh, was hailing him 
 
 &#8220;Now, scoot. And we love you.&#8221;
 
-***
+---
 
 Friday night found Kate in a somewhat better mood. The layoff rumblings at Western Digital were pointing decidedly toward shipping, and the spirits in Assembly Wing A had steadily climbed throughout the afternoon. Some of the Hispanic assemblers even began singing as they worked, and as much as the General Manager hated it, the whole floor was swinging by 4 o&#8217;clock. That&#8217;s what Kate loved about her work group: when they got the notion they could turn on an emotional dime like a school of fish. More than once in the five years she&#8217;d been working there, she&#8217;d seen everyone in the wing meld into one, generally in response to something stupid management had done to offend their collective sense of justice. And every time the sheer force of their numbers and will had had an undeniable impact. Call it a non-union union or whatever, but it worked, and on this particular Friday, the old Mexican songs of the fathers were the sweetest sounds Kate could possibly have imagined.
 
@@ -90,7 +91,7 @@ Kate&#8217;s memories of those early days were a heady mix of bliss and frustrat
 
 Financing for the home had been tight, and Caslon had taken second and third jobs between Ruby&#8217;s voyages, generally doing odd work in the basin. Kate moved up to the night manager position at the Bread Box, and it became common for her to put in sixty hour weeks, racking up several thousand dollars in overtime in one short blur of a summer. Al had told them he would match whatever war chest they could raise in trying to meet the minimum down payment on the house. Things fell together nicely, and the two exhausted teens signed for their first and only home shortly after Labor Day, 1981.
 
-***
+---
 
 Kate took a swig of Millers, leaned back into the deep pile of pillows on the couch and smiled at the thought of teenagers playing house.
 

@@ -1,0 +1,53 @@
+---
+layout: base.liquid
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "/archives/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}/index.html"
+eleventyComputed:
+  title: "{{ post.title }}"
+---
+
+<header>
+  <h1>
+    {{ post.title }}
+  </h1>
+  <time>By {{ post.author }} on {{ post.publish_date | utc | date: "%a, %b %-d %Y @ %H:%M" }} UTC</time>
+</header>
+
+<main>
+  <article>
+    {{ post.body | markdownify }}
+    <ol>
+    {% for screed in post.comments %}
+      <li id="comment-{{ screed.comment_id }}">
+        {{ screed.comment_author }} • {{ screed.comment_publish_date| utc | date: "%a, %b %-d %Y @ %H:%M" }} UTC<br>
+        {{ screed.comment_body | markdownify }}
+        </li>
+    {% endfor %}
+    </ol>
+  </article>
+  {% assign sortedPosts = posts | sort: "publish_date" | reverse %}
+  {% assign totalPosts = sortedPosts | size %}
+  {% assign firstIndex = totalPosts | minus: 1 %}
+  {% assign currIndex = sortedPosts | findIndex: post.publish_date, "publish_date" %}
+  {% assign nextIndex = currIndex | minus: 1 %}
+  {% assign prevIndex = currIndex | plus: 1 %}
+  {% assign nextPost = sortedPosts[nextIndex] %}
+  {% assign prevPost = sortedPosts[prevIndex] %}
+  {% assign lastPost = sortedPosts[0] %}
+  {% assign firstPost = sortedPosts[firstIndex] %}
+  
+  <pre>first_post: <a
+    href="/archives/{{ firstPost.year | slugify }}-{{ firstPost.month | slugify }}-{{ firstPost.day | slugify }}-{{ firstPost.title | slugify }}">{{
+    firstPost.title }}</a></pre>
+  <pre>prev_post: <a href="/archives/{{ prevPost.year | slugify }}-{{ prevPost.month | slugify }}-{{ prevPost.day | slugify }}-{{ prevPost.title | slugify }}">{{ prevPost.title }}</a></pre>
+  
+  <pre>next_post: <a href="/archives/{{ nextPost.year }}-{{ nextPost.month }}-{{ nextPost.day }}-{{ nextPost.title | slugify }}">{{ nextPost.title }}</a></pre>
+  <pre>last_post: <a
+    href="/archives/{{ lastPost.year | slugify }}-{{ lastPost.month | slugify }}-{{ lastPost.day | slugify }}-{{ lastPost.title | slugify }}">{{
+    lastPost.title }}</a></pre>
+</main>
+
+

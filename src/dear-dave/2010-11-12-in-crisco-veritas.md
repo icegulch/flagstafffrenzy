@@ -1,7 +1,8 @@
 ---
 title: In Crisco Veritas
-date: 2010-11-12
+publish_date: "2010-11-12T05:00:00Z"
 ---
+
 Dear Dave,
 
 My partner and I are having a rather nasty argument over something that really shouldn't be all that contentious. We've both agreed that we'll let you mediate for us and that we'll abide by whatever you say.

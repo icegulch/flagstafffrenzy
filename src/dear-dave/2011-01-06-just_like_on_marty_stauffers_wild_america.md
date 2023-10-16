@@ -1,7 +1,8 @@
 ---
 title: Just Like on Marty Stauffer's Wild America
-date: 2011-01-06
+publish_date: "2011-01-06T05:00:00Z"
 ---
+
 Dear Dave,
 
 I'm concerned about a guy I work with. For decades he's shared an office and had lot's of interaction with coworkers, faculty, and students. He's well liked and a fun person to be around. However, recently he decided he's moving into an office all by himself. The office has no windows and it has a large storage room in the back. My concern is I hope this new change in his workspace isn't mirroring a withdrawal in his life. I hope he doesn't set up his office in the back storage room and close the door, keeping his main office as an anteroom where people will find no one if they happen to drop by. I could envision the storage room having very low light and a caveman-like decor.

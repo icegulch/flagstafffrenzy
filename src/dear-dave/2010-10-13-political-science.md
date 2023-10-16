@@ -1,7 +1,8 @@
 ---
 title: Political Science
-date: 2010-10-13
+publish_date: "2010-10-13T06:29:23Z"
 ---
+
 Dear Dave,
 
 I have a dilemma. One of my employees (let's call him &#8220;Steve&#8221;) apparently has enough time on his hands to be running for Congress! He talks about being swamped and working late; but the other day as I was driving home from work, I saw yard sign after yard sign saying, &#8220;Stephen Bailey for Congress!&#8221; I guess by changing out the &#8220;v&#8221; in his name for a &#8220;ph,&#8221; he figured we wouldn't catch on to him. But believe me, I'm hip to his jive.

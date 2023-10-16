@@ -1,0 +1,38 @@
+---
+permalink: /archives/index.html
+title: Ye Oulde Frenzy
+---
+
+<header>
+  <h1>
+    The Archives
+  </h1>
+</header>
+<main>
+  </article>
+    {% assign postsByYear = posts | group_by: "year" | sort | reverse %}
+    {% for postByYear in postsByYear %}
+      <dl class="archive">
+        <dt>{{ postByYear.name }}</dt>
+        {% assign zeYear = postByYear.name %}
+        {% assign postsByMonth = postByYear.items | group_by: "month" | sort: "name" | reverse %}
+        <dd>
+          {% for month in postsByMonth %}
+            <div class="archive-months">
+              <h3>{{ month.name | monthName }} '{{ zeYear | slice:2,3 }}</h3>
+              <div>
+                {% assign postsSortedByDay = month.items | sort: "publish_date" | reverse %}
+                {% for post in postsSortedByDay %}
+                  <span>{{ post.publish_date | date: "%d" }}</span>
+                  <span>
+                    <a href="/archives/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}/">{{ post.title }}</a>
+                  </span>
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
+        </dd>
+      </dl>
+    {% endfor %}
+  </article>
+</main>

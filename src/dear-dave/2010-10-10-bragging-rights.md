@@ -1,7 +1,8 @@
 ---
 title: Bragging Rights
-date: 2010-10-10
+publish_date: "2010-10-10T08:31:30Z"
 ---
+
 Dear Dave,
 
 My problem is the person who &#8220;works&#8221; at the desk next to mine. Nice enough guy, I suppose, but I think he's what they used to call a blowhard.
@@ -14,7 +15,7 @@ I wish he'd just shut up and leave me alone.
 
 Any suggestions would be most appreciated.
 
-Signed, 
+Signed,
 
 Ready to Go Work in a Chilean Copper Mine
 

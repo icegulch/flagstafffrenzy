@@ -1,7 +1,8 @@
 ---
 title: On Golden Pond
-date: 2010-11-07
+publish_date: "2010-11-07T05:00:00Z"
 ---
+
 Dear Dave,
 
 Sorry if I'm a bit out of breath. I just finished trimming the hedges&#8230; again. Third time this week.
@@ -22,11 +23,11 @@ Waiting for Dancing with the Stars to Come on at Seven in Louisville
 
 Dear Waiting for Dancing with the Stars to Come on at Seven in Louisville,
 
-I'm glad you brought this sensitive and timely subject to light for all of us. As the Baby Boomer generation bumps gently against the dock, this tragic problem of the bowel-clogging _ennui which accompanies retirement will surely garner increased attention. Thank you for being a brave pioneer!
+I'm glad you brought this sensitive and timely subject to light for all of us. As the Baby Boomer generation bumps gently against the dock, this tragic problem of the bowel-clogging \_ennui which accompanies retirement will surely garner increased attention. Thank you for being a brave pioneer!
 
 Personally, I've drawn upon my decades of experience as a competitive speed walker and am currently using the time-honored racer's practice of &#8220;just-screwing-around-and-going-through-the-motions&#8221; to prepare myself for my golden years.
 
-Rather than waiting for my retirement to begin before, say, making little clay toothpick caddys at the Rec Center, or hanging out at Home Depot and asking complete strangers if they can help me find my lower dentures, I do these things now. I consider this a high-level form of training. I'm not really sound asleep in meetings or arguing with my own reflection in appliance store windows, I'm simply practicing. And these _Dear Dave letters I write to myself? Ditto. They've given me a solid feel for what it will be like to be ignored, unpaid, and irrelevant. I love it already!
+Rather than waiting for my retirement to begin before, say, making little clay toothpick caddys at the Rec Center, or hanging out at Home Depot and asking complete strangers if they can help me find my lower dentures, I do these things now. I consider this a high-level form of training. I'm not really sound asleep in meetings or arguing with my own reflection in appliance store windows, I'm simply practicing. And these \_Dear Dave letters I write to myself? Ditto. They've given me a solid feel for what it will be like to be ignored, unpaid, and irrelevant. I love it already!
 
 This approach is, of course, useless for you; you've already hit the wall. But I do have a thought which may help fill your days and ease your discomfort: The Frenzy is hiring greeters.
 

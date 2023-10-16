@@ -1,0 +1,46 @@
+
+<form
+  name="comment"
+  method="POST"
+  netlify-honeypot="bot-field"
+  data-netlify="true"
+  action="/thanks/">
+  <p class="sr-only">
+    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+  </p>
+  <div>
+    <label for="name" style="display:block">
+      Your Name
+    </label>
+    <select
+      id="name"
+      name="name[]"
+      required>
+      <option
+        value=""
+        selected="true"
+        disabled="disabled">Please select one</option>
+      <option value="Steve">Steve</option>
+      <option value="Dave">Dave</option>
+      <option value="Noah">Noah</option>
+    </select>
+  </div>
+  <div>
+    <label
+      for="message"
+      style="display:block"
+      required>
+      What's on your mind?
+    </label>
+  </div>
+  <textarea
+    id="message"
+    name="message"
+    rows="10"
+    required></textarea>
+  <div>
+    <button type="submit">
+      Send
+    </button>
+  </div>
+</form>

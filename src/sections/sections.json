@@ -1,0 +1,4 @@
+{
+  "layout": "collection.liquid",
+  "permalink": "/{{ page.url.split('/').first }}/{{ page.fileSlug }}/"
+}

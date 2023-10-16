@@ -1,10 +1,11 @@
 ---
 title: Worse Than the DMV!
-date: 2010-09-23
+publish_date: "2010-09-23T20:41:02Z"
 ---
+
 Dear Dave,
 
-I'm a professional music scholar. If I told you my real name, you'd recognize it immediately. I'm _that famous.
+I'm a professional music scholar. If I told you my real name, you'd recognize it immediately. I'm _that famous_.
 
 I've spent the past twenty-five years working on my magnum opus, a documentary which examines the role of the G7 chord in western civilization. The thirty-two seconds of material I've finished so far is brilliant, I must say.
 

@@ -1,7 +1,8 @@
 ---
 title: Elder Hostile
-date: 2010-09-30
+publish_date: "2010-09-30T09:37:47Z"
 ---
+
 Dear Dave,
 
 I work at a major university out west. My job is to help faculty understand and use the latest in cutting-edge computer technologies&#8230; you know, applications like Droople, Ning, Splip, Smoopo, Mesmik, and Drikmax. In other words, I'm young, whip-smart, and, okay, twist-my-arm&#8230; devilishly good looking.

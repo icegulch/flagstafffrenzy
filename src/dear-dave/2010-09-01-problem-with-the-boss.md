@@ -1,7 +1,8 @@
 ---
 title: Problem with the Boss
-date: 2010-09-01
+publish_date: "2010-09-01T05:47:13Z"
 ---
+
 Dear Dave,
 
 My boss recently told me he's going to join my lunchtime cycling rides. Should I let him win?

@@ -1,6 +1,7 @@
 const util = require('util')
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   // eleventyConfig.addPassthroughCopy({ "src/_includes/oldposts/": "posts/" });
   eleventyConfig.setLiquidOptions({
@@ -18,8 +19,17 @@ module.exports = function (eleventyConfig) {
     ];
     return monthNames[parseInt(monthNumber, 10) - 1] || '';
   });
-
   eleventyConfig.addFilter('group_by', groupBy)
+
+  eleventyConfig.addFilter("findIndex", function (arr, value, attr) {
+      return arr.findIndex((item) => item[attr] === value);
+  });
+
+  eleventyConfig.addFilter('utc', function (date) {
+    const utcDate = new Date(date);
+    utcDate.setMinutes(utcDate.getMinutes() + utcDate.getTimezoneOffset());
+    return utcDate.toUTCString();
+  });
 
   eleventyConfig.setServerOptions({
     showAllHosts: true,

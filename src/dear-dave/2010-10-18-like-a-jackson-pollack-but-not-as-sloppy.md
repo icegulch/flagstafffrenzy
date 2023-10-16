@@ -1,7 +1,8 @@
 ---
 title: Like a Jackson Pollack, But Not As Sloppy
-date: 2010-10-18
+publish_date: "2010-10-18T20:26:46Z"
 ---
+
 Dear Dave,
 
 What about those Buffaloes?

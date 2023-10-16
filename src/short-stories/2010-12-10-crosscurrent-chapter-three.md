@@ -1,7 +1,8 @@
 ---
 title: Crosscurrent, Chapter Three
-date: 2010-12-10
+publish_date: "2010-12-10T09:36:29Z"
 ---
+
 In downtown Bingham, Arkansas, Jules pulled into a well-worn Texaco, filled up, and stepped inside a sweltering phone booth. He fumbled about in his pocket, fished out a small red spiral notebook, and thumbing through its notes and numbers, looked up the one entry that would finally and gloriously set his life on the high road.
 
 &#8220;Hello, is Mr. Martin there?&#8221;
@@ -20,7 +21,7 @@ In downtown Bingham, Arkansas, Jules pulled into a well-worn Texaco, filled up, 
 
 &#8220;Oh, that&#8217;s very good news. We&#8217;re ahead of schedule in that case.&#8221;
 
-***
+---
 
 Patterson Supply was a mess. A pipe had burst during the night, and there was standing water in most of the aisles. The clerks had put as much of the stock as they could up on boards and cinder blocks, and getting through the store was a challenge. Hector Montoya was watching yet one more weekend go up in smoke. Home improvement&#8212;this time a fenced dog run&#8212;was Hector&#8217;s eternal curse, and on this particular Saturday morning as he waded through the hardware aisle, his mood loitered somewhere between bad and very bad.
 
@@ -60,7 +61,7 @@ Montoya&#8217;s quixotic domestic projects were the stuff of local legend, and h
 
 &#8220;An Armand original, sheriff.&#8221;
 
-***
+---
 
 Adam was staying at Lynn&#8217;s place so much that his friends joked that he should be getting his mail there. It was true; he stopped by the dorm only about once or twice a week now, mostly to pick up the occasional letter from home or to see the guys and maybe shoot a few baskets. At Lynn&#8217;s he felt like he was at home. She had a flair for the domestic, and her apartment had the warmth and cozy closeness of a country home. What a wild difference from most of the places in which other Tulane students lived. No beer-can pyramids, no Nirvana posters, no bikes or gym equipment. And Lynn was the human mirror of her abode; her Kansas roots showed in virtually everything she said and did. She was level-headed, fiscally conservative, and practical. And to Adam&#8217;s way of thinking, she was hot. He never could understand how a girl who made seemingly no conscious attempt at sexiness could, in fact, be so sexy. She ruled him in every way, and he reveled in his victim-hood.
 
@@ -128,7 +129,7 @@ Lynn loved teasing Adam about his major, which was History. She was a business s
 
 &#8220;Yeah, Jules. You don&#8217;t even want to know.&#8221;
 
-***
+---
 
 What the hell kind of idiot would file all of the E&#8217;s behind the G&#8217;s? Hector was trying to organize all of the inactive contact forms, sorting through the stack of gray file boxes in the storage room behind the holding cells. On the table next to him was a half-eaten danish and the rank bottom-third of a large coffee. He picked up the phone, hit &#8220;55#&#8221;, and was already in full roar when Art Drummond picked up on the other end.
 

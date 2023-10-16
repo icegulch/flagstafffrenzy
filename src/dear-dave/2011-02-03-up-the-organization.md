@@ -1,7 +1,8 @@
 ---
 title: Up the Organization
-date: 2011-02-03
+publish_date: "2011-02-03T05:00:00Z"
 ---
+
 Dear Dave,
 
 After six years of working in the same mind-numbing hell-hole of a job, I'm moving on. That's right, I'm taking a new position with an up-and-coming company out in the suburbs.

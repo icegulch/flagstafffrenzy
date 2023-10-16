@@ -1,7 +1,8 @@
 ---
 title: My Boyfriend's Back
-date: 2010-09-03
+publish_date: "2010-09-03T20:46:28Z"
 ---
+
 Dear Dave,
 
 This past week, I've been immersing myself in the haute couture of Switzerland with my new European amis. Today, my Joe-Blow American beau showed up, in a ratty Frenzy tee and jeans. Mon dieu!

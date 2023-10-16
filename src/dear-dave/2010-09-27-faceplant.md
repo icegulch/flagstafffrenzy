@@ -1,7 +1,8 @@
 ---
 title: Faceplant
-date: 2010-09-27
+publish_date: "2010-09-27T05:39:16Z"
 ---
+
 Dear Dave,
 
 I just heard that they've released a movie about the guy who started Facebook. It sounds fascinating! Have you seen it? Do you know how it ends?

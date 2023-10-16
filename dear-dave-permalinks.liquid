@@ -1,0 +1,10 @@
+---
+layout: dear-dave.liquid
+pagination:
+  data: collections["Dear Dave"]
+  size: 1
+  alias: dd
+permalink: /dear-dave/{{ dd.data.title | slugify }}/
+eleventyComputed:
+  title: "From Dave's Dank Locker of Bike Shorts"
+---

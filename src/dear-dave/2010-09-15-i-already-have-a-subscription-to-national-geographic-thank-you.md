@@ -1,7 +1,8 @@
 ---
 title: I Already Have a Subscription to National Geographic, Thank You
-date: 2010-09-15
+publish_date: "2010-09-15T06:43:44Z"
 ---
+
 Dear Dave,
 
 I work with a dude who takes exotic vacations like the rest of us take aspirin. One week the guy's surfing in Hawaii, the next he's in Switzerland trekking or in Lombassa collecting butterflies with John Malkovich.

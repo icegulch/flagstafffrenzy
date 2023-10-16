@@ -1,0 +1,5 @@
+{
+  "layout": "collection.liquid",
+  "tags": "Short Stories",
+  "permalink": "/short-stories/{{ publish_date | slice:0,10 }}-{{ title | slugify }}/index.html"
+}

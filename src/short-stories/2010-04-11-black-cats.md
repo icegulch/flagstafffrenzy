@@ -1,7 +1,10 @@
 ---
 title: Black Cats
-date: 2010-04-11
+publish_date: "2010-04-11T17:26:22Z"
 ---
+
+![Black Cats Firecrackers branding](https://res.cloudinary.com/flagstafffrenzy/image/fetch/f_auto/https://blackcatfireworks.com/wp-content/uploads/2022/08/Black-Cat.jpg)
+
 Mouse was out on the deck lighting Black Cats while I worked on the letter. He was making an unholy, random racket, but I let it go, mostly because I&#8217;d recently discovered stoicism, and piloting ahead through adversity felt grown-up.
 
 Mouse was going through his Third Great Age of Destruction. Not bad for a twelve year old kid with a cancerous liver. I listened to the insistent staccato reports and heard him shuffling about on the cedar planks just outside the sliding door. It was cold as hell out there and it cracked me up thinking about him numbly fingering the matches and firecrackers.
@@ -42,7 +45,7 @@ I shouted to Mouse, and when he looked up to the rim of the gully to where I sto
 
 I&#8217;ve always considered that moment to be the kickoff of Mouse&#8217;s First Great Age of Destruction. Back home, after the vacation, when we were bracing for the start of the school year and our parents had comfortably settled back into their well-worn habit of going at one another&#8217;s throats, Mouse embarked on an ambitious campaign of pushing virtually everything in his world to the absolute brink. He did crazy things. I watched him scoot one of our mother&#8217;s prized hand-painted vases to the edge of the dining-room table, then nudge it a micron at a time until it tipped, fell, and shattered on the floor. I saw him crawl out of his bedroom window onto the ice-glazed roof and and clamber up to the peak, which he straddled, singing, thirty-five feet above the frozen ground. Looking back, I wonder if he knew then that somewhere deep inside, the destructive code of cancer was beginning to patiently write itself into a starring role.
 
-***
+---
 
 I&#8217;d made dinner again that night and Mom was lecturing me about salt. It was high blood pressure that killed Grandpa, she said, and I wasn&#8217;t helping things any with this meatloaf. Across the table Mouse was dinking about with his food and humming.
 
@@ -84,7 +87,7 @@ Mouse helped me with the dishes after dinner. In the living room Mom was on the 
 
 &#8220;Shut up and get that plate clean.&#8221;
 
-***
+---
 
 I&#8217;m not sure if I remember our father now or if it&#8217;s just a flattened, half-toned image of him that I see when I close my eyes and trawl deep. I&#8217;m only seventeen. You&#8217;d think I could recall things from five years ago pretty well. But, in fact, it&#8217;s fluky as hell. I remember, for instance, when they built the Twin Rivers Mall. I can still see the piles of black dirt and the mustard-colored construction equipment etching the fields down the street and the Hispanic crews paving over the meadow where we used to catch frogs. I remember with utmost clarity the day the Redskins won the Superbowl. But I can&#8217;t for some reason see my father&#8217;s face. After the divorce Mom mounted a very thorough jihad, and every last molecule of the man was purged from the house. No pictures, no mementos, not even the pencilled marks on the door jams which had chronicled our juvenile growth spurts (yes, Mom had erased even those).
 
@@ -96,11 +99,11 @@ Sometimes you don&#8217;t recognize the grand finale of a fireworks show until i
 
 I&#8217;m trying to keep this from veering off into the all-too predictable screed in which I shoot arrows at my vanished father. It would be a very short story. He was here, he&#8217;s gone, and thanks for bothering to read along. But his son/my brother has two, maybe three months left, then another trapdoor snaps open and my mother and I again get stuck with the shadows. I&#8217;m sensing a pattern.
 
-***
+---
 
 Let&#8217;s talk about Mouse. In school he does well enough. His grades aren&#8217;t so hot, but then why would that matter? I think everyone knows by now about the cancer, and, even though he&#8217;s ever the tough little bastard, they treat him like a holy child. This has virtually no effect on him. On the days he feels well enough - which have, naturally, become singular - he comes home sweaty and scuffed. The gravel in his sneakers tells us he&#8217;s been deep into the school playground and he can still rip a decent hole in his jeans. But most days he simply hangs on and the progression of the disease is as unwavering as the deepening winter.
 
-***
+---
 
 After we put the dishes away Mouse tells me he needs help with his math. Mom is still on the phone, and the sound of frayed resignation in her voice tells me she&#8217;s lost another one. I&#8217;m half sorry for the lioness on the other end; Mom apparently has a fairly extensive laundry list of injustices and injuries to work through before letting go of the kill.
 
@@ -132,7 +135,7 @@ Downstairs Mom is reading over a contract (God knows why). I kiss the top of her
 
 And then my head falls to the desk and I sob silently until blessed sleeps puts out the lights.
 
-***
+---
 
 Months later I&#8217;m thinking about fireworks again. In the paper I read that they&#8217;re thinking of changing the laws up in Michigan and that all the good stuff - the Black Cats, the Cherry bombs, the M80&#8217;s, and the Silver Salutes - will be illegal. _Illegal_. I&#8217;m realizing now that that&#8217;s a problem I don&#8217;t expect to have.
 

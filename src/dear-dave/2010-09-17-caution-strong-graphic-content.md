@@ -1,7 +1,8 @@
 ---
 title: Caution- Strong Graphic Content
-date: 2010-09-17
+publish_date: "2010-09-17T21:41:55Z"
 ---
+
 Dear Dave,
 
 My problem is simple. My daughter wants to be a graphic designer. Frankly, if she goes down that path, I don't know how I can possibly explain it to family and friends. I've tried reasoning with her, but her mind is made up.

@@ -1,10 +1,11 @@
 ---
 title: Thank God You're a Country Girl
-date: 2010-10-21
+publish_date: "2010-10-21T07:24:20Z"
 ---
+
 Dear Dave,
 
-Several years ago my husband and I decided to take on a serious life change. We moved from a major metropolitan area to a very small town in the country. I think watching all those old _Green Acres reruns is what finally put us over the top. I had always pictured myself as the Eva Gabor type, and my husband had a special fondness for all things barnyard.
+Several years ago my husband and I decided to take on a serious life change. We moved from a major metropolitan area to a very small town in the country. I think watching all those old \_Green Acres reruns is what finally put us over the top. I had always pictured myself as the Eva Gabor type, and my husband had a special fondness for all things barnyard.
 
 At first, it was truly a dream. Once we got used to the rednecks using our mailbox for target practice and to the low level of resident literacy (0% before we moved there), we found our new life to be everything we'd expected and much more. We grew vegetables, went on long walks through the rolling hills, and even developed a taste for the local meth (acidic, but in a pleasant, citrusy way). Just to show our willingness to blend, we also joined a local militia - there were dozens to choose from - and spent many happy hours in full cammo, hiding under bridges or in the bushes on the courthouse lawn.
 
@@ -38,6 +39,6 @@ I found myself wondering, where could I possibly go and not be subjected to to t
 
 If I were you, I'd learn to love my little house on the prairie. Never mind that the rustics take the occasional potshot at your mailbox, or that the local library doesn't yet have a procedure for checking out books (it's never come up). It's much better, believe me, than what you left behind. Be thankful.
 
-By the way&#8230; what _was the name of Eva Gabor's character on _Green Acres? Something Douglas, wasn't it?
+By the way&#8230; what \_was the name of Eva Gabor's character on \_Green Acres? Something Douglas, wasn't it?
 
 Dave

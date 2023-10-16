@@ -1,0 +1,22 @@
+---
+layout: base.liquid
+---
+
+{% assign tag = tags[0] %}
+<header>
+  <h1>{{ title }}</h1>
+  <time pubdate="{{ publish_date | date: " %Y-%m-%d" }}">
+    {{ publish_date | utc | date: "%A, %B %e, %Y @ %H:%M" }} UTC
+  </time>
+</header>
+<main>
+  <article>
+    {{ content }}
+    {% assign previousPost = collections[tag] | getPreviousCollectionItem %}
+    {% assign nextPost = collections[tag] | getNextCollectionItem %}
+    <pre>
+      <a href="/{{ tag | slugify }}/{{ nextPost.data.publish_date | slice: 0,10 }}-{{ nextPost.data.title | slugify }}">{{ nextPost.data.title }}</a>
+      <a href="/{{ tag | slugify }}/{{ previousPost.data.publish_date | slice: 0,10 }}-{{ previousPost.data.title | slugify }}">{{ previousPost.data.title }}</a>
+    </pre>
+  </article>
+</main>

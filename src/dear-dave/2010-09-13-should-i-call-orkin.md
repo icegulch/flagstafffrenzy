@@ -1,7 +1,8 @@
 ---
 title: Should I Call Orkin?
-date: 2010-09-13
+publish_date: "2010-09-13T20:45:16Z"
 ---
+
 Dear Dave,
 
 An employee keeps asking me to bike up Flag with him over the lunch hour. My level of fitness could best be described as &#8220;lightly above couch potato.&#8221; My BMI is 30. I'm afraid I might collapse if I actually biked up Flag. Do you think he's just trying to help me get in shape in the mode of [Sarge the Therapist](https://youtu.be/9EbKssmdKN0?si=PamnbhJaWuE-4S3o)? or do you think he's trying to kill me? Or both? What should I do?
