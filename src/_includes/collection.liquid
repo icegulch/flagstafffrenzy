@@ -14,12 +14,12 @@ layout: base.liquid
     {{ content | markdownify | prependCloudinaryURL }}
     {% assign postComments = comments | sort: "timestamp" | reverse %}
     {% for comment in postComments %}
-    <aside style="display:grid;gap:5px 0;padding:1rem;background-color:#f1f5f9">
-      <time><strong>{{ comment.author }}</strong> • {{ comment.timestamp | date: "%a, %b %-d '%y @ %H:%M" }}</time>
-      <div>
-        {{ comment.body | markdownify | prependCloudinaryURL }}
-      </div>
-    </aside>
+      <aside id="{{ comment.id }}" style="display:grid;gap:5px 0;padding:1rem;background-color:#f1f5f9">
+        <time><strong>{{ comment.author }}</strong> • {{ comment.timestamp | date: "%a, %b %-d '%y @ %H:%M" }}</time>
+        <div>
+          {{ comment.body | markdownify | prependCloudinaryURL }}
+        </div>
+      </aside>
     {% endfor %}
     {% assign previousPost = collections[tag] | getPreviousCollectionItem %}
     {% assign nextPost = collections[tag] | getNextCollectionItem %}

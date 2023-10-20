@@ -4,7 +4,7 @@ publish_date: 2011-06-19T01:28:04Z
 title: Getting Real in the Whole Foods Parking Lot
 author: Steve
 ---
-I've seen all of this at the Whole Foods on Pearl (courtesy of Kevin)
+<figure><iframe width="560" height="349" src="http://www.youtube.com/embed/2UFc1pr2yUU" frameborder="0" allowfullscreen></iframe><figcaption>I've seen all of this at the Whole Foods on Pearl (courtesy of Kevin)</figcaption>
 
 Got out for our first hike of the season today: Lost Creek Wilderness. I'm sooo out of shape. Sigh.
 
