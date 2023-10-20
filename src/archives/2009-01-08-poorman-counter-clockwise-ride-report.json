@@ -1,0 +1,19 @@
+{
+  "year": "2009",
+  "month": "01",
+  "day": "08",
+  "comments": [
+    {
+      "id": "1187",
+      "author": "RL",
+      "timestamp": "2009-01-08T18:16:50Z",
+      "body": "Oh Dave, how I wish I could join you. 60 degrees? Unpardonable! I'm stuck here in a conference of CTO's, supporting their projections, audio, and web streaming. Alas. I can't believe I can't go out to play today :( RL"
+    },
+    {
+      "id": "1188",
+      "author": "Dave",
+      "timestamp": "2009-01-08T18:24:17Z",
+      "body": "GTO's? One of Pontiac's finest cars, though I always thought if they'd tuned the headers on the short block 387, they would have _really_ kicked butt. Oh well... could be worse, I guess. Could be stuck in a meeting. DU"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "year": "2007",
+  "month": "06",
+  "day": "25",
+  "comments": [
+    {
+      "id": "428",
+      "author": "Matt",
+      "timestamp": "2007-06-25T20:14:00Z",
+      "body": "I'm an unfaithful Frend. I took a late lunch today to shop for a new apartment. It looks like tomorrow may be out, too. Sorry guys!"
+    },
+    {
+      "id": "429",
+      "author": "Dave",
+      "timestamp": "2007-06-25T20:36:00Z",
+      "body": "Glad I got out today, even tho' it was hideously hot. The trails are so dry they're slick... like running on ball bearings. I hate summer... except the [Eban Fine swimming hole](http://www.colby.edu/personal/a/ampaliye/FR252/manet20.jpg) part. That part's fine 'n dandy."
+    }
+  ]
+}

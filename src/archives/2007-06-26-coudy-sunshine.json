@@ -1,0 +1,37 @@
+{
+  "year": "2007",
+  "month": "06",
+  "day": "26",
+  "comments": [
+    {
+      "id": "430",
+      "author": "Kevin",
+      "timestamp": "2007-06-26T17:35:00Z",
+      "body": "The clouds look scary, but I'll give it a go."
+    },
+    {
+      "id": "431",
+      "author": "Matt",
+      "timestamp": "2007-06-26T17:43:00Z",
+      "body": "Once again I have lunch plans today. I am free for the rest of the week during lunch - I promise!"
+    },
+    {
+      "id": "432",
+      "author": "Steve",
+      "timestamp": "2007-06-26T22:22:00Z",
+      "body": "You guys need a jalopy-turned-hot-dog stand to motivate you?! A whip might be better. Get crackin, boys!"
+    },
+    {
+      "id": "433",
+      "author": "Kevin",
+      "timestamp": "2007-06-27T02:54:00Z",
+      "body": "Greg and I had a nice ride up a cloudy Sunshine Canyon today. The overcast skies and cool temperatures were quite a contrast from yesterday's heat. There were lots of other riders on the road today. We figured that they were doing some scouting for this Saturday's Sunshine Canyon Hill Climb."
+    },
+    {
+      "id": "434",
+      "author": "Greg",
+      "timestamp": "2007-06-27T16:19:00Z",
+      "body": "That's a bar Steve. We wouldn't be motivated by hot dogs!"
+    }
+  ]
+}

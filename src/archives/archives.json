@@ -1,0 +1,5 @@
+{
+  "layout": "collection.liquid",
+  "tags": ["Archives"],
+  "permalink": "/archives/{{ year }}-{{ month }}-{{ day }}-{{ title | slugify }}/index.html"
+}

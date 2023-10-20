@@ -23,7 +23,7 @@ Waiting for Dancing with the Stars to Come on at Seven in Louisville
 
 Dear Waiting for Dancing with the Stars to Come on at Seven in Louisville,
 
-I'm glad you brought this sensitive and timely subject to light for all of us. As the Baby Boomer generation bumps gently against the dock, this tragic problem of the bowel-clogging \_ennui which accompanies retirement will surely garner increased attention. Thank you for being a brave pioneer!
+I'm glad you brought this sensitive and timely subject to light for all of us. As the Baby Boomer generation bumps gently against the dock, this tragic problem of the bowel-clogging _ennui_ which accompanies retirement will surely garner increased attention. Thank you for being a brave pioneer!
 
 Personally, I've drawn upon my decades of experience as a competitive speed walker and am currently using the time-honored racer's practice of &#8220;just-screwing-around-and-going-through-the-motions&#8221; to prepare myself for my golden years.
 

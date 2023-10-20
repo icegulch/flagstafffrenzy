@@ -1,0 +1,16 @@
+---
+layout: false
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "posts-as-md/{{post.publish_date | slice: 0,10}}-{{post.title | slugify}}.md"
+permalinkBypassOutputDir: true
+---
+---
+id: {{ post.id }}
+publish_date: {{ post.publish_date }}
+title: {{ post.title }}
+author: {{ post.author }}
+---
+{{ post.body | htmlToMd}}

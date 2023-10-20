@@ -1,0 +1,25 @@
+{
+  "year": "2008",
+  "month": "01",
+  "day": "07",
+  "comments": [
+    {
+      "id": "595",
+      "author": "Dave",
+      "timestamp": "2008-01-07T18:15:00Z",
+      "body": "I'll bring the leeches. See ya' soon."
+    },
+    {
+      "id": "596",
+      "author": "Dave",
+      "timestamp": "2008-01-07T20:33:00Z",
+      "body": "We (the family and I) are tentatively good-to-go for the I-Peaks trip... right up until the overnight part. That's where we'll probably peel off and head into Ned for a hot meal at the Kathmandu. We'll think of you as we dig into the naan and inhale the bottomless chai. Are skis allowed?"
+    },
+    {
+      "id": "597",
+      "author": "iSean",
+      "timestamp": "2008-01-07T21:40:00Z",
+      "body": "Skis allowed in the bottomless chai? Well, I can think of a couple of reasons why it'd be bad to soak skis in such a liquid; though I don't know if they've explicitly outlawed the practice."
+    }
+  ]
+}

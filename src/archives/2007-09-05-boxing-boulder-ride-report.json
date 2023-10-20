@@ -1,0 +1,19 @@
+{
+  "year": "2007",
+  "month": "09",
+  "day": "05",
+  "comments": [
+    {
+      "id": "502",
+      "author": "Greg",
+      "timestamp": "2007-09-05T17:23:00Z",
+      "body": "Think I'm going to go get a new tire and tubes at lunch today."
+    },
+    {
+      "id": "503",
+      "author": "Dave",
+      "timestamp": "2007-09-05T21:23:00Z",
+      "body": "Videos like this are bit disturbing when your kid is away for his first semester at college. Where the hell was the RA when all of this was going on, that's what I want to know."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+---
+layout: false
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "posts-as-md/{{post.publish_date | slice: 0,10}}-{{post.title | slugify}}.json"
+permalinkBypassOutputDir: true
+---
+{
+  "year": "{{post.publish_date | date: "%Y"}}",
+  "month": "{{post.publish_date | date: "%m"}}",
+  "day": "{{post.publish_date | date: "%d"}}",
+  {% if post.comments -%}
+  "comments": [
+    {%- for comment in post.comments %}
+{%- assign commentBodyMd = comment.comment_body | htmlToMd | replace: '"', '&quot;' | newline_to_br | strip_newlines %}
+    {
+      "id": "{{comment.comment_id}}",
+      "author": "{{comment.comment_author}}",
+      "timestamp": "{{comment.comment_publish_date}}",
+      "body": "{{commentBodyMd}}"
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]
+{%- else -%}
+  "comments": []
+  {%- endif %}
+}

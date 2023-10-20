@@ -1,0 +1,25 @@
+{
+  "year": "2005",
+  "month": "02",
+  "day": "18",
+  "comments": [
+    {
+      "id": "2",
+      "author": "Dave",
+      "timestamp": "2005-02-21T15:26:00Z",
+      "body": "Okay, here's a thought... A year or so ago I had a notion that folks from ITS might want to adopt Flagstaff Road, as in the Adopt-a-Highway Program. I put a little blurb in the Digital Cookie Jar, Dennis Maloney was the only guy who responded, and - being the zero gravity kind of person I am - I forgot all about it. But, ta-da!, here's another shot at it! Anyone interested? It looks really easy: http://www.dot.state.co.us/AdoptAHighway/ And the good publicity couldn't hurt, eh? Let me know; I'll happily be the point man. ...And one more thing. Would someone PLEASE PLEASE drop Steve Bailey Friday? (God knows I've tried.) -Dave Underwood"
+    },
+    {
+      "id": "3",
+      "author": "Steve",
+      "timestamp": "2005-02-21T15:51:00Z",
+      "body": "I'm game! Can we tie a trailer for all the trash to Dave's bike?"
+    },
+    {
+      "id": "6",
+      "author": "Dennis",
+      "timestamp": "2005-03-04T00:18:00Z",
+      "body": "I'm in on the adopt a road program, again. And one Friday I'll actually show up to get successfully dropped."
+    }
+  ]
+}

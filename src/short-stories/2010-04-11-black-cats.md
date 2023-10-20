@@ -3,7 +3,7 @@ title: Black Cats
 publish_date: "2010-04-11T17:26:22Z"
 ---
 
-![Black Cats Firecrackers branding](https://res.cloudinary.com/flagstafffrenzy/image/fetch/f_auto/https://blackcatfireworks.com/wp-content/uploads/2022/08/Black-Cat.jpg)
+![Black Cats Firecrackers branding](https://blackcatfireworks.com/wp-content/uploads/2022/08/Black-Cat.jpg)
 
 Mouse was out on the deck lighting Black Cats while I worked on the letter. He was making an unholy, random racket, but I let it go, mostly because I&#8217;d recently discovered stoicism, and piloting ahead through adversity felt grown-up.
 

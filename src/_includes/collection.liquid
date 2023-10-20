@@ -6,17 +6,26 @@ layout: base.liquid
 <header>
   <h1>{{ title }}</h1>
   <time pubdate="{{ publish_date | date: " %Y-%m-%d" }}">
-    {{ publish_date | utc | date: "%A, %B %e, %Y @ %H:%M" }} UTC
+{% if tags[0] == 'Archives' %}{{ author }} • {% endif %}{{ publish_date | utc | date: "%A, %B %e, %Y @ %H:%M" }} UTC
   </time>
 </header>
 <main>
   <article>
-    {{ content }}
+    {{ content | markdownify | prependCloudinaryURL }}
+    {% assign postComments = comments | sort: "timestamp" | reverse %}
+    {% for comment in postComments %}
+    <aside style="display:grid;gap:5px 0;padding:1rem;background-color:#f1f5f9">
+      <time><strong>{{ comment.author }}</strong> • {{ comment.timestamp | date: "%a, %b %-d '%y @ %H:%M" }}</time>
+      <div>
+        {{ comment.body | markdownify | prependCloudinaryURL }}
+      </div>
+    </aside>
+    {% endfor %}
     {% assign previousPost = collections[tag] | getPreviousCollectionItem %}
     {% assign nextPost = collections[tag] | getNextCollectionItem %}
     <pre>
-      <a href="/{{ tag | slugify }}/{{ nextPost.data.publish_date | slice: 0,10 }}-{{ nextPost.data.title | slugify }}">{{ nextPost.data.title }}</a>
-      <a href="/{{ tag | slugify }}/{{ previousPost.data.publish_date | slice: 0,10 }}-{{ previousPost.data.title | slugify }}">{{ previousPost.data.title }}</a>
+      <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+      <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
     </pre>
   </article>
 </main>

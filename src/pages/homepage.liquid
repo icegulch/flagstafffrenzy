@@ -10,6 +10,9 @@ permalink: /index.html
 
 <main>
   <article>
+    <pre>{{ collections['Archives'] | size }}</pre>
+  </article>
+  {% comment %} <article>
     {% assign posts_by_year = posts | group_by: "year" | sort: "name" | reverse %}
     {% for year in posts_by_year %}
       <h2>{{ year.name }}</h2>
@@ -25,7 +28,7 @@ permalink: /index.html
         </ul>
       {% endfor %}
     {% endfor %}
-  </article>
+  </article> {% endcomment %}
 </main>
 
   {% comment %} {% assign posts_by_dave = posts | where: "author", "Dave" %}
