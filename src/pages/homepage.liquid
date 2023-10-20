@@ -15,18 +15,23 @@ permalink: /index.html
   {% comment %} <article>
     {% assign posts_by_year = posts | group_by: "year" | sort: "name" | reverse %}
     {% for year in posts_by_year %}
-      <h2>{{ year.name }}</h2>
-      {% assign posts_by_month = year.items | group_by: "month" | sort: "name" | reverse %}
-      {% for month in posts_by_month %}
-        <h3>{{ month.name | monthName }}</h3>
-        <ul>
-          {% for post in month.items %}
-            <li>
-              {{ post.publish_date | date: "%d" }} - <a href="/bygone/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}">{{ post.title }}</a> ({{ post.comments | size }})
-            </li>
+      <dl class="archive">
+        <dt>{{ year.name }}</dt>
+        <dd>
+          {% assign zeYear = year.name %}
+          {% assign posts_by_month = year.items | group_by: "month" | sort: "name" | reverse %}
+          {% for month in posts_by_month %}
+            <div class="archive-months">
+              <h3>{{ month.name | monthName }} '{{ zeYear | slice:2,3 }}</h3>
+              <div>
+                {% for post in month.items %}
+                  <span>{{ post.publish_date | date: "%d" }}</span>
+                  <span><a href="/archives/{{ post.year }}-{{ post.month }}-{{ post.day }}-{{ post.title | slugify }}">{{ post.title }}</a> ({{ post.comments | size }})</span>
+                {% endfor %}
+              </div>
+            </div>
           {% endfor %}
-        </ul>
-      {% endfor %}
+        </dd>
     {% endfor %}
   </article> {% endcomment %}
 </main>
