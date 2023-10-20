@@ -4,12 +4,11 @@ publish_date: 2007-11-26T20:30:00Z
 title: Flagstaff Ride Report
 author: Steve
 ---
-![](http://www.flagstafffrenzy.org/wp-content/uploads/2007/11/DougBike2.jpg)  
-Beefy snow tires (with spikes) would've beat my skinny tires today...
+![Beefy snow tires (with spikes) would've beat my skinny tires today...](http://www.flagstafffrenzy.org/wp-content/uploads/2007/11/DougBike2.jpg)  
 
 I waited at Gate 5 for a spell this afternoon, and when no one appeared I decided to track down Dave on Flagstaff. Hope no one had plans to rendezvous with me on Boxing Boulder.
 
-Now, either Dave was fibbing about riding Flagstaff or [he rode at an entirely different](http://www.flagstafffrenzy.org/2007/11/26/flagstaff-ride-report-39#comment-564) time of day, because I didn't see him on the ascent or descent. The former was typical with tee-shirt temps and decent conditions, but the latter was a bear.
+Now, either Dave was fibbing about riding Flagstaff or [he rode at an entirely different](/archives/2007-11-26-flagstaff-ride-report/#comment-564) time of day, because I didn't see him on the ascent or descent. The former was typical with tee-shirt temps and decent conditions, but the latter was a bear.
 
 It's surprising how the black tongues of icy water running across the road can seem so harmless on the way up and yet so deadly on the way down. I dismounted repeatedly or rode in the oncoming traffic lane just because it felt safer at the time.
 

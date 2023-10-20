@@ -14,7 +14,7 @@ layout: base.liquid
     {{ content | markdownify | prependCloudinaryURL }}
     {% assign postComments = comments | sort: "timestamp" | reverse %}
     {% for comment in postComments %}
-      <aside id="{{ comment.id }}" style="display:grid;gap:5px 0;padding:1rem;background-color:#f1f5f9">
+      <aside id="comment-{{ comment.id }}" style="display:grid;gap:5px 0;padding:1rem;background-color:#f1f5f9">
         <time><strong>{{ comment.author }}</strong> • {{ comment.timestamp | date: "%a, %b %-d '%y @ %H:%M" }}</time>
         <div>
           {{ comment.body | markdownify | prependCloudinaryURL }}
