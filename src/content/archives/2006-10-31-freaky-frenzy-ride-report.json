@@ -1,0 +1,24 @@
+{
+  "related_post_id": 111,
+  "comment_count": 3,
+  "comments": [
+    {
+      "id": 172,
+      "author": "Dave",
+      "timestamp": "2006-10-27T17:30:00Z",
+      "body": "Hey, I think a lot of you buzzards voted twice! Besides, I signed on for cross-training, not cross-dressing. Sheesh."
+    },
+    {
+      "id": 173,
+      "author": "Brian",
+      "timestamp": "2006-10-31T22:17:00Z",
+      "body": "I'd like to take back my reservations about seeing Dave in a kilt. She's a good looking man! Brian"
+    },
+    {
+      "id": 179,
+      "author": "Dave",
+      "timestamp": "2006-11-02T22:37:00Z",
+      "body": "Do I look fat in this?"
+    }
+  ]
+}

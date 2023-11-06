@@ -1,5 +1,0 @@
-{
-  "layout": "collection.liquid",
-  "tags": "Dear Dave",
-  "permalink": "/dear-dave/{{ publish_date | slice:0,10 }}-{{ title | slugify }}/index.html"
-}

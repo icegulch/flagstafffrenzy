@@ -1,0 +1,10 @@
+---
+id: 5420
+title: Guilty as Charged
+publish_date: "2010-09-21T14:42:41Z"
+author: Steve
+---
+  
+They're on to us. Time to call in [MIDOL](http://www.flagstafffrenzy.org/2010/02/05/the-frenzy-turns-its-head-and-coughs).
+
+Looks like print media is the safer way to goof off at work. But newspapers are **so** 1990s!

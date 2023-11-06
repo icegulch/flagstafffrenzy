@@ -1,12 +1,12 @@
 const util = require('util')
+const TurndownService = require('turndown');
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
-  // eleventyConfig.addPassthroughCopy({ "src/_includes/oldposts/": "posts/" });
-
-  eleventyConfig.setLiquidOptions({
-    jsTruthy: true
+  // Create a new instance of the TurndownService
+  const turndown = new TurndownService();
+  eleventyConfig.addFilter('turndown', (content) => {
+    return turndown.turndown(content);
   });
 
   eleventyConfig.addFilter('dump', obj => {
@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('group_by', groupBy)
 
   eleventyConfig.addFilter("findIndex", function (arr, value, attr) {
-      return arr.findIndex((item) => item[attr] === value);
+    return arr.findIndex((item) => item[attr] === value);
   });
 
   eleventyConfig.addFilter('utc', function (date) {

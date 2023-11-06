@@ -1,9 +1,0 @@
----
-id: 4123
-publish_date: 2010-02-08T14:11:27Z
-title: Skinning the Frenzy Onion
-author: Dave
----
-![chart](http://www.flagstafffrenzy.org/wp-content/uploads/2010/02/coating.jpg) Figure 2. Storing meaningful content in a cool dry place; a key success factor in maintaining the Frenzy life-cycle
-
-I just talked w/ SB on the phone. He's fit to be tied, and it's all my fault; I shouldn't have told him that I've let the efficiency experts rummage through the Frenzy sock drawer. This is a devastating development at this stage of his rehab, and I'm afraid now that the clinic may ask to hold him for an extra few weeks. Send prayers. Now where were we? Oh yeah... we'd just taken a fresh look at the core Frenzy mission as seen through the [MIDOL](http://www.flagstafffrenzy.org/2010/02/05/the-frenzy-turns-its-head-and-coughs) lens. As you can see in Figure 2, from its earliest inception, when SB hatched the operation shortly before his first "hospitalization," the Frenzy has run exclusively on garbage. Flowing voluminously both into and out of the Frenzy's administrative shell, garbage is the veritable lifeblood of the blog, but has been historically buffered from any and all meaningful content by a dense layer of raw ignorance. Much as the ozone layer protects the earth from the sun's destructive rays, raw ignorance keeps the Frenzy mission intact, and shields end users from the corrosive effects of knowledge. It's this layer that has suffered gravely in recent months, due in part to SB's newfound infatuation w/ _The Antioch Review_. Even with the introduction of DU (arguably the godfather of ignorance) as a publishing partner, this worsening trend continues, and indeed accelerates. Tomorrow we'll look at possible remedies, including the stopgap hiring of iSean, who is not unlike a Dave Underwood on steroids. Looks like a good day for Flagstaff; 2-2672 DU

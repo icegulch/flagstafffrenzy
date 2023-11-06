@@ -1,0 +1,24 @@
+{
+  "related_post_id": 1031,
+  "comment_count": 3,
+  "comments": [
+    {
+      "id": 898,
+      "author": "Greg",
+      "timestamp": "2008-10-24T17:16:15Z",
+      "body": "I'm in a meeting until noon. I'll be going out for a ride after that. -G"
+    },
+    {
+      "id": 896,
+      "author": "Matt",
+      "timestamp": "2008-10-24T16:41:50Z",
+      "body": "Does the hit count include the RSS feed?"
+    },
+    {
+      "id": 897,
+      "author": "Steve",
+      "timestamp": "2008-10-24T16:52:16Z",
+      "body": "Matt, we get about 9 requests/day for the FF feed according to Feedburner. I noticed about 7 hits on the website from Florida last month. Wonder who that is?! How's things?"
+    }
+  ]
+}

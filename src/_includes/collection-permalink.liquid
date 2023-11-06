@@ -1,0 +1,34 @@
+---
+layout: base.liquid
+---
+
+<header>
+  <h1>{{ title }}</h1>
+  <time pubdate="{{ publish_date | date: " %Y-%m-%d" }}">
+    {% if section_slug == "archives" %}{{ author }} • {% endif %}{{ publish_date | utc | date: "%A, %B %e, %Y @ %H:%M" }} UTC<br>
+    {% if section_slug == "archives" %}Year: {{ year }}, Month: {{ month }}, Day: {{ day }}{% endif %}
+  </time>
+</header>
+
+<main>
+  <article>
+    {{ content | markdownify | prependCloudinaryURL }}
+    {% assign postComments = comments | sort: "timestamp" | reverse %}
+    {% for comment in postComments %}
+      <aside id="comment-{{ comment.id }}" style="display:grid;gap:5px 0;padding:1rem;background-color:#f1f5f9">
+        <time><strong>{{ comment.author }}</strong> • {{ comment.timestamp | date: "%a, %b %-d '%y @ %H:%M" }}</time>
+        <div>
+          {{ comment.body | markdownify | prependCloudinaryURL }}
+        </div>
+      </aside>
+    {% endfor %}
+  </article>
+  <nav>
+    {% assign thisCollection = collections.all | where: "data.section_slug", section_slug | sort: "publish_date" %}
+    {% assign nextPost = thisCollection | getNextCollectionItem %}
+    {% assign previousPost = thisCollection | getPreviousCollectionItem %}
+    {% if nextPost %}Next: <a href="{{ nextPost.data.page.url }}">{{ nextPost.data.title }}</a><br>{% endif %}
+    {% if previousPost %}Prev: <a href="{{ previousPost.data.page.url }}">{{ previousPost.data.title }}</a>{% endif %}
+  </nav>
+</main>
+
